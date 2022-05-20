@@ -1,0 +1,49 @@
+.btnDel{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.btnDel p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.friend-name{
+    position: relative;
+}
+
+.btnDel:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btnEdit{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: blue;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.btnEdit p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btnEdit:hover{
+    opacity: 1;
+    cursor: pointer;
+}

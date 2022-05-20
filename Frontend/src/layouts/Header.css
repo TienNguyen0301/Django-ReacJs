@@ -1,0 +1,183 @@
+
+/*--- topbar ---*/
+
+.topbar {
+    background: #fff;
+    display: block;
+    height: 60px;
+    padding: 0 48px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    position: relative;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: inherit;
+    width: 15%;
+    position: relative;
+    z-index: 10;
+}
+
+.topbar > form {
+    display: inline-block;
+    vertical-align: sub;
+    width: 26%;
+    position: relative;
+}
+
+.top-area {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 84%;
+}
+
+.top-area > ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+.top-area > ul > li {
+    display: inline-block;
+    margin-right: 10px !important;
+    position: relative;
+    vertical-align: top;
+    z-index: 2;
+    margin-right: 10px !important;
+    /* height: 60px; */
+    
+}
+
+.top-area > ul > li > a {
+    color: #999;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-area .user-img {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    line-height: 60px;
+}
+
+.top-area .user-img > span.status {
+    bottom: 10px;
+    right: 5px;
+}
+
+.top-area > span.main-menu {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: -10px;
+    vertical-align: inherit;
+}
+
+.top-area .user-img > img {
+    border-radius: 50%;
+    display: inline-block;
+    transform: scale(0.7);
+    vertical-align: inherit;
+}
+
+.form-search {
+    position: absolute;
+    right: -15px;
+    top: 42px;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.searched.active .form-search {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form-search input {
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #999999;
+    font-size: 15px;
+    padding: 9px 18px;
+    width: 100%;
+}
+
+.form-search button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #999;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+}
+
+.top-area > ul > li > a > span {
+    bottom: -10px;
+    font-size: 11px;
+    position: absolute;
+    right: -4px;
+}
+
+/*--- sticky sidebar ---*/
+
+#page-contents {
+    position: relative;
+}
+
+.static,
+.static > div {
+    position: static !important;
+}
+
+
+/*--- sticky sidebar End ---*/
+
+
+
+
+
+.avt {
+    height: 50px;
+    width: 50px;
+    padding: 7px;
+    border-radius: 100% !important;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+
+}
+
+.user-img {
+    height: 60px !important;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    line-height: 60px;
+}
+
+.top-15{
+    padding-top: 15px;
+}
+
+/* .top-10{
+    vertical-align: middle !important;
+} */
+
+.img-user{
+    display: flex;
+    align-items: center;
+
+}
+
+.pad-10{
+    padding-top: 10px;
+}
